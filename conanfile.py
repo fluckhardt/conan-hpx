@@ -15,7 +15,7 @@ class HpxConan(ConanFile):
     options = {"shared": [True, False]}
     default_options = "shared=False"
     generators = "cmake"
-    requires = "boost/1.68.0@conan/stable"  #, "hwloc/1.11.1@lasote/stable"
+    requires = "boost/1.66.0@conan/stable"  #, "hwloc/1.11.1@lasote/stable"
 
     def system_requirements(self):
         if tools.os_info.linux_distro == "arch":
