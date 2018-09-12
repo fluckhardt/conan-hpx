@@ -64,13 +64,13 @@ matrix:
 
       # xxxxxxxxxx Clang xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
       - <<: *linux
-        env: CONAN_CLANG_VERSIONS=5.0 CONAN_DOCKER_IMAGE=lasote/conanclang50 CONAN_BUILD_TYPES=Release CONAN_CURRENT_PAGE=1
+        env: CONAN_CLANG_VERSIONS=5.0 CONAN_DOCKER_IMAGE=lasote/conanclang50 CONAN_BUILD_TYPES=Release CXXFLAGS="-std=c++14" CONAN_CURRENT_PAGE=1
       - <<: *linux
-        env: CONAN_CLANG_VERSIONS=5.0 CONAN_DOCKER_IMAGE=lasote/conanclang50 CONAN_BUILD_TYPES=Release CONAN_CURRENT_PAGE=2
+        env: CONAN_CLANG_VERSIONS=5.0 CONAN_DOCKER_IMAGE=lasote/conanclang50 CONAN_BUILD_TYPES=Release CXXFLAGS="-std=c++14" CONAN_CURRENT_PAGE=2
       - <<: *linux
-        env: CONAN_CLANG_VERSIONS=5.0 CONAN_DOCKER_IMAGE=lasote/conanclang50 CONAN_BUILD_TYPES=Release CONAN_CURRENT_PAGE=3
+        env: CONAN_CLANG_VERSIONS=5.0 CONAN_DOCKER_IMAGE=lasote/conanclang50 CONAN_BUILD_TYPES=Release CXXFLAGS="-std=c++14" CONAN_CURRENT_PAGE=3
       - <<: *linux
-        env: CONAN_CLANG_VERSIONS=5.0 CONAN_DOCKER_IMAGE=lasote/conanclang50 CONAN_BUILD_TYPES=Release CONAN_CURRENT_PAGE=4
+        env: CONAN_CLANG_VERSIONS=5.0 CONAN_DOCKER_IMAGE=lasote/conanclang50 CONAN_BUILD_TYPES=Release CXXFLAGS="-std=c++14" CONAN_CURRENT_PAGE=4
 
 
       - <<: *linux
