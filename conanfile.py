@@ -6,8 +6,9 @@ import os
 # TODO: Add an option to enable Xeon Phi support. See https://github.com/STEllAR-GROUP/hpx#intelr-xeonphi
 
 
-# TODO: Remove examples
+# TODO: Add an option to set the CMake HPX_WITH_MALLOC variable
 # TODO: Remove documentation
+# TODO: Add an option to set the CMake HPX_WITH_MORE_THAN_64_THREADS variable to ON as well as HPX_WITH_MAX_CPU_COUNT as HPX documentation in case the user has a system with more then 64 processing units
 
 class HpxConan(ConanFile):
     name = "hpx"
