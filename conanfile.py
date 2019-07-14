@@ -12,7 +12,7 @@ import os
 
 class HpxConan(ConanFile):
     name = "hpx"
-    version = "1.2.1"
+    version = "1.3.0"
     license = "Boost Software License, Version 1.0"
     url = "https://github.com/darcamo/conan-hpx"
     description = "HPX (High Performance ParalleX) is a general purpose C++ runtime system for parallel and distributed applications of any scale."
